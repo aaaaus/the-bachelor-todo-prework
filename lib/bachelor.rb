@@ -3,6 +3,7 @@ def get_first_name_of_season_winner(data, season)
     if data[season]["status"] == "Winner"
       first_name = data[season]["Name"].split(" ")
     end
+  end
     first_name[0]
 end
 
