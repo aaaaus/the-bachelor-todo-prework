@@ -53,7 +53,7 @@ ages = []
 data.each do |season, contestants|
     contestants.each do |contestant|
       contestant.each do |key, value|
-        
+        if k == "Age"
         return contestant["occupation"]
       end
     end
