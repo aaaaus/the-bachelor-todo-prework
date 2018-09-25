@@ -2,7 +2,7 @@ def get_first_name_of_season_winner(data, season)
   data[season].each do |contestant|
     contestant.each do |key, value|
     if value == "Winner"
-      first_name = data[season]["Name"].split(" ")
+      first_name = contestant["name"].split(" ")
     end
   end
     first_name[0]
