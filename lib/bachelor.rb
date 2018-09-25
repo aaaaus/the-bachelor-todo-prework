@@ -54,11 +54,12 @@ data.each do |season, contestants|
     contestants.each do |contestant|
       contestant.each do |key, value|
         if key == "age"
-          ages.push(value.to_i)
+          ages.push(value.to_f)
       end
     end
   end
 end
+ages
 retu
 end
 
