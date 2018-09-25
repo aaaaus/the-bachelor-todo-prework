@@ -5,6 +5,7 @@ def get_first_name_of_season_winner(data, season)
       first_name = contestant["name"].split(" ")
     end
   end
+end
     first_name[0]
 end
 
