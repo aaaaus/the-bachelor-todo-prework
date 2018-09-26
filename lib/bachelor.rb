@@ -56,13 +56,12 @@ data.each do |season, contestants|
       contestant.each do |key, value|
         if key == "age"
           ages.push(value.to_f)
-          
+          ages = ages + value
       end
     end
   end
 end
-ages
-retu
+average = age_tally / (ages.length + 1)
 end
 
 
