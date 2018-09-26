@@ -59,7 +59,7 @@ age_total = 0
         end
   end
   end
-return (age_total.to_f / ages.length.to_f)
+return (age_total.to_f / ages.length.to_f).round
 end
 
 
