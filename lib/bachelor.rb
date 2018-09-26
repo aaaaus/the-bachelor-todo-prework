@@ -61,7 +61,7 @@ data.each do |season, contestants|
     end
   end
 end
-age_total
+ages.length
 end
 
 
