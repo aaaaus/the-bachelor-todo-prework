@@ -62,7 +62,7 @@ data.each do |season, contestants|
   end
 end
 puts ages.length
-average = (age_total.to_f / (ages.length.to_f)).to_f
+average = (age_total.to_f / (ages.length.to_f)).round
 end
 
 
