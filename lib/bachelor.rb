@@ -59,7 +59,7 @@ age_total = 0
         end
   end
   end
-return ages.length
+return age_total
 end
 
 
