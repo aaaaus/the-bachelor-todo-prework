@@ -55,7 +55,7 @@ data.each do |season, contestants|
     contestants.each do |contestant|
       contestant.each do |key, value|
         if key == "age"
-          ages.push(value.to_f)
+          ages.push(value)
           ages = ages + value
       end
     end
