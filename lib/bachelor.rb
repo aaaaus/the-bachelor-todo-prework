@@ -62,6 +62,7 @@ data.each do |season, contestants|
   end
 end
 average = (age_total / (ages.length + 1)).to_f.ceil
+return average
 end
 
 
