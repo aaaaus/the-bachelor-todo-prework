@@ -61,7 +61,7 @@ data.each do |season, contestants|
     end
   end
 end
-ages.length
+return ages.length
 end
 
 
