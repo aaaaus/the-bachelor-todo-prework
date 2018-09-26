@@ -50,11 +50,13 @@ end
 
 def get_average_age_for_season(data, season)
 ages = []
+age_tally = 0
 data.each do |season, contestants|
     contestants.each do |contestant|
       contestant.each do |key, value|
         if key == "age"
           ages.push(value.to_f)
+          
       end
     end
   end
