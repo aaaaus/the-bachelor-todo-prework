@@ -1,5 +1,3 @@
-require 'pry'
-
 def get_first_name_of_season_winner(data, season)
   first_name = []
   data[season].each do |contestant|
@@ -65,7 +63,6 @@ data.each do |season, contestants|
 end
 puts ages.length
 average = ((age_total / (ages.length)).to_f)
-binding.pry
 return average.ceil
 end
 
